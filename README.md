@@ -20,7 +20,7 @@ Lastly you need Twitter dev keys to scrap tweets. You can get them by sign in at
 
 <h3>Project highlights</h3>
 
-<img src="https://github.com/Mirkesx/tap-progetto/blob/master/images/tap-progetto.png">
+<img src="https://github.com/Mirkesx/reputation_system/blob/main/images/tap-progetto.png">
 
 We will use Twitter as our source. Since we want to gather tweets in real-time, <b>Flume</b> will be our way to gather all this raw data without losing any of them. Two servers (<b>ZooKeeper and Kafka</b>) will handle the streaming of this data to <b>Spark</b> which will model this data into special json objects and which will filter tweets we don't need. Spark will perform sentiment analysis too to understand if a tweet is negative or positive.
 
